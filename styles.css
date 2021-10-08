@@ -39,16 +39,30 @@ text-align: center;
 .menu1 p a img {
     margin: 2% 4%;
 }
+.contenedor_infestructura{
+    margin: 5% 10%;
+    background-color: white;
+    
+    }
+
+
+
+
+
+
 .titulo_infrestructura{
     background-color: rgb(17, 169, 240);
     color: rgb(17, 169, 240);
 }
 .infrestructura_imagen1{
-    width: 13%;
-    margin: 6% 20%;
-    margin-right: 3%;
+    width: 20%;
 }
-.contenedor_infestructura{
-margin: 5% 10%;
-background-color: white;
+.titulo_con_imagen  {
+    text-align: center;
+    font-size: 250%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    color: tomato;
+
 }
+
