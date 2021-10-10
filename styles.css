@@ -52,6 +52,12 @@ text-align: center;
     position: fixed;
     border-radius: 50%;
     background-color: rgb(192, 192, 192);
+    width: 5%;
+    height: 10%;
+   margin-left: 2%;
+}
+.regreso a img{
+ width: 100%;
 }
 
 
