@@ -44,9 +44,9 @@ text-align: center;
 }
 
 .contenedor_rectangulo_infrestructura{
-    margin: 5% 10%;
-    background-color: white;
-
+    margin: 100% 10%;
+    background-color: rgb(255, 255, 255);
+    
     }
 .regreso{
     position: fixed;
@@ -62,6 +62,7 @@ text-align: center;
 }
 .infrestructura_imagen1{
     width: 20%;
+    min-width: 150px;
 }
 .titulo_con_imagen  {
     text-align: center;
