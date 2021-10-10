@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-size: cover;
@@ -20,9 +21,11 @@ margin: 1%;
 }
 .titulo h1 {
 text-align: center;
+
 }
 .titulo{
     background-color: rgb(17, 169, 240);
+
 }
 .menu p{
     text-align: center;
@@ -39,12 +42,15 @@ text-align: center;
 .menu1 p a img {
     margin: 2% 4%;
 }
-.contenedor_infestructura{
+
+.contenedor_rectangulo_infrestructura{
     margin: 5% 10%;
     background-color: white;
-    
-    }
 
+    }
+.regreso{
+    position: fixed;
+}
 
 
 
