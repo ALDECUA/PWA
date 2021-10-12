@@ -50,19 +50,15 @@ text-align: center;
     }
 .regreso{
     position: fixed;
-    border-radius: 50%;
+    border-radius: 50vh;
     background-color: rgb(192, 192, 192);
-    width: 5%;
-    height: 10%;
-   margin-left: 2%;
+    width: 5vw;
+    height: 10vh;
+   margin: 2vw 5vh;
 }
 .regreso a img{
  width: 5vw;
 }
-
-
-
-
 
 .titulo_infrestructura{
     background-color: rgb(17, 169, 240);
