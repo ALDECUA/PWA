@@ -43,33 +43,40 @@ text-align: center;
     margin: 2% 4%;
 }
 
+
+
 .contenedor_rectangulo_infrestructura{
-    margin: 5% 10%;
+    margin: 2.5% 5%;
     background-color: rgb(255, 255, 255);
-    height: 30000px;
+    height: 2000px;
     }
+.uno {
+    display: flex;
+}
 .regreso{
     border-radius: 50%;
     background-color: rgb(192, 192, 192);
-    height: .20%;
-    width: 20%;
+    width: 10%;
+    height: 5%;
+    margin: 2%;
+    display: flex;
 }
 .regreso a img{
- width: 100%;
-}
 
+  width: 100%;
+}
 .titulo_infrestructura{
     background-color: rgb(17, 169, 240);
     color: rgb(17, 169, 240);
 }
 .infrestructura_imagen1{
- width: 30%;
+ width: 20%;
 }
 .titulo_con_imagen  {
     text-align: center;
-    font-size: 250%;
+    font-size: 100%;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 1000;
+    font-size: 6vmax;
     color: tomato;
 
 }
