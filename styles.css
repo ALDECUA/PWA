@@ -48,8 +48,6 @@ text-align: center;
 .contenedor_rectangulo_infrestructura{
     margin: 2.5% 5%;
     background-color: rgb(255, 255, 255);
-    height: 2000px;
-    
     }
 
 .regreso{
@@ -77,4 +75,65 @@ text-align: center;
     color: tomato;
     align-items: center;
 }
-
+.main-contenedor{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    columns: 4;
+}
+.main-contenedor div{
+    margin: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor-main-1{
+    font-size: 100%;
+    
+}
+.contenedor-main-1 div{
+    display: flex;
+    margin: 15% auto;
+}
+.contenedor-main-1 div p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3vh;
+}
+.contenedor-main-1 div img{
+    width: 20%;
+  
+}
+.divisor{
+    background: grey;
+    color: grey;
+    padding: .4%;
+}
+.contenedor-main-2{
+    font-size: 100%;
+    
+}
+.contenedor-main-2 div{
+    display: flex;
+    margin: 15% auto;
+}
+.contenedor-main-2 div p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3vh;
+}
+.contenedor-main-2 div img{
+    width: 20%;
+  
+}
+.municipios{
+ 
+    justify-content: center;
+    margin:5% 10%;
+}
+.nombres_municipios{
+    font-size: 4vh;
+    margin-top: 5%;
+}
+.municipios6 {
+   margin-right: 11%;
+ font-family: fantasy;
+ color:rgb(142, 142, 223);
+ font-size: 8vh;
+}
