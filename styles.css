@@ -50,16 +50,16 @@ text-align: center;
     background-color: rgb(255, 255, 255);
     height: 2000px;
     }
-.uno {
-    display: flex;
-}
+
 .regreso{
-    border-radius: 50%;
+    border-radius: 100%;
     background-color: rgb(192, 192, 192);
     width: 10%;
-    height: 5%;
+    height: 8%;
     margin: 2%;
     display: flex;
+    min-width: 15%;
+    position: fixed;
 }
 .regreso a img{
 
