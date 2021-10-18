@@ -25,7 +25,7 @@ text-align: center;
 }
 .titulo{
     background-color: rgb(17, 169, 240);
-
+    box-shadow: -3px 3px 10px #000;
 }
 .menu p{
     text-align: center;
@@ -63,9 +63,11 @@ text-align: center;
 .titulo_infrestructura{
     background-color: rgb(17, 169, 240);
     color: rgb(17, 169, 240);
+    box-shadow: -3px 3px 10px #000;
 }
 .infrestructura_imagen1{
- width: 20%;
+    padding-top: 3%;
+    width: 20%;
 }
 .titulo_con_imagen  {
     text-align: center;
@@ -89,6 +91,7 @@ text-align: center;
 .contenedor-main-1{
     font-size: 100%;
   background-color: rgb(246, 239, 237);
+  box-shadow: -3px 3px 10px #000;
 }
 
 .contenedor-main-1 div p{
@@ -113,6 +116,7 @@ text-align: center;
     background-color: rgb(246, 239, 237);
     font-size: 100%;
     justify-content: center;
+    box-shadow: -3px 3px 10px #000;
     
 }
 .contenedor-main-2 div p{
@@ -131,13 +135,17 @@ text-align: center;
   
 }
 .municipios{
- 
+    
     justify-content: center;
     margin:5% 10%;
 }
 .nombres_municipios{
+  
     font-size: 4vh;
     margin-top: 5%;
+}
+.nombres_municipios a {
+    text-decoration: none;
 }
 .municipios6 {
    margin-right: 11%;
@@ -161,6 +169,15 @@ text-align: center;
  .titulo_columna2{
      justify-content: center;
  }
+.años {
+    margin-left: 5%;
+}
+.años button{
+    align-items: center;
+    margin: 4% .5%;
+    width: 12vw;
+    height: 5vh;
+}
 
 @media screen and (max-width: 700px){
     .municipios6{
