@@ -122,6 +122,7 @@ text-align: center;
 .contenedor-main-2 div p {
     margin-top: 5%;
     margin-left: 7%;
+    
 }
 
 .contenedor-main-2 div{
@@ -178,6 +179,8 @@ text-align: center;
     margin: 4% .5%;
     width: 12vw;
     height: 5vh;
+    font-weight: 700;
+    font-size: 100%;
 }
 
 @media screen and (max-width: 700px){
