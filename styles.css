@@ -100,7 +100,7 @@ text-align: center;
 }
 .contenedor-main-1 div{
     display: flex;
-    margin: 15% auto;
+    margin: 15% 7%;
        
 }
 
@@ -119,14 +119,15 @@ text-align: center;
     box-shadow: -3px 3px 10px #000;
     
 }
-.contenedor-main-2 div p{
-    margin-top: 7%;
-    margin-left: 10%;
+.contenedor-main-2 div p {
+    margin-top: 5%;
+    margin-left: 7%;
 }
+
 .contenedor-main-2 div{
     
     display: flex;
-    margin: 6% auto;
+    margin: 7% 7%;
 }
 
 .contenedor-main-2 div img{
@@ -196,7 +197,7 @@ text-align: center;
     .contenedor-main-2 div div{
         width: 100%;
     }
-    .titulo_columna1 p{
+    .titulo_columna1 p {
         font-size: 8vh;
     }
     .titulo_columna2 p{
