@@ -170,8 +170,9 @@ text-align: center;
      justify-content: center;
  }
 .años {
-    margin-left: 20%;
-    align-items:center;
+
+   display: flex;
+   justify-content: center;
 }
 .años button{
     align-items: center;
@@ -183,6 +184,25 @@ text-align: center;
 }
 
 @media screen and (max-width: 700px){
+    .nombres_municipios{
+        font-size: 6vh;
+        display: flex;
+        flex-direction: column;
+  
+     }
+     .nombres_municipios button {
+        font-size: 3vh;
+        margin-top: 3%;
+     }
+    .años button{
+        
+        margin: 4% 2%;
+        width: 17vw;
+        height: 5vh;
+        font-weight: 700;
+        font-size: 100%;
+       
+    }
     .municipios6{
         font-size: 5vh;
     }
