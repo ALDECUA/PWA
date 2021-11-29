@@ -141,12 +141,10 @@ text-align: center;
     margin:5% 10%;
 }
 .nombres_municipios{
-  
-    font-size: 4vh;
-    margin-top: 5%;
+   font-size: 5vh;
 }
-.nombres_municipios a {
-    text-decoration: none;
+.nombres_municipios button {
+   font-size: 3vh;
 }
 .municipios6 {
    margin-right: 11%;
