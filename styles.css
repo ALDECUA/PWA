@@ -142,6 +142,7 @@ text-align: center;
 }
 .nombres_municipios{
    font-size: 6vh;
+
 }
 .nombres_municipios button {
    font-size: 3vh;
@@ -186,7 +187,7 @@ text-align: center;
         font-size: 5vh;
     }
     .nombres_municipios{
-        font-size: 3vh;
+        font-size: 5vh;
     }
     .main-contenedor{
         display: inline;
