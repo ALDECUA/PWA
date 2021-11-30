@@ -183,6 +183,12 @@ text-align: center;
     font-size: 100%;
 }
 
+.actualizar{
+display: flex;
+justify-content: center;
+
+}
+
 @media screen and (max-width: 700px){
     .nombres_municipios{
         font-size: 6vh;
