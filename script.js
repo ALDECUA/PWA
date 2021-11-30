@@ -15,9 +15,9 @@ if ('serviceWorker' in navigator) {
   document.getElementById('año5').innerHTML="$17 MP";
   document.getElementById('año6').innerHTML="5732";
   document.getElementById('b').style.backgroundColor='red';
-  document.getElementById('c').style.backgroundColor='transparent';
-  document.getElementById('d').style.backgroundColor='transparent';
-  document.getElementById('e').style.backgroundColor='transparent';
+  document.getElementById('c').style.backgroundColor='#EDEDED';
+  document.getElementById('d').style.backgroundColor='#EDEDED';
+  document.getElementById('e').style.backgroundColor='#EDEDED';
 }
 
 function cambio3() {
@@ -27,10 +27,10 @@ function cambio3() {
   document.getElementById('año4').innerHTML="2215"
   document.getElementById('año5').innerHTML="$5 MP";
   document.getElementById('año6').innerHTML="2035";
-  document.getElementById('b').style.backgroundColor='transparent';
+  document.getElementById('b').style.backgroundColor='#EDEDED';
   document.getElementById('c').style.backgroundColor='red';
-  document.getElementById('d').style.backgroundColor='transparent';
-  document.getElementById('e').style.backgroundColor='transparent';
+  document.getElementById('d').style.backgroundColor='#EDEDED';
+  document.getElementById('e').style.backgroundColor='#EDEDED';
   
 }
 function cambio4() {
@@ -41,10 +41,10 @@ function cambio4() {
   document.getElementById('año5').innerHTML="$7 MP";
   document.getElementById('año6').innerHTML="1776";
   
-  document.getElementById('b').style.backgroundColor='transparent';
-  document.getElementById('c').style.backgroundColor='transparent';
+  document.getElementById('b').style.backgroundColor='#EDEDED';
+  document.getElementById('c').style.backgroundColor='#EDEDED';
   document.getElementById('d').style.backgroundColor='red';
-  document.getElementById('e').style.backgroundColor='transparent';
+  document.getElementById('e').style.backgroundColor='#EDEDED';
 }
 function cambio5() {
   document.getElementById('año1').innerHTML="3089";
@@ -54,9 +54,9 @@ function cambio5() {
   document.getElementById('año5').innerHTML="$40.6 MP";
   document.getElementById('año6').innerHTML="12265";
   
-  document.getElementById('b').style.backgroundColor='transparent';
-  document.getElementById('c').style.backgroundColor='transparent';
-  document.getElementById('d').style.backgroundColor='transparent';
+  document.getElementById('b').style.backgroundColor='#EDEDED';
+  document.getElementById('c').style.backgroundColor='#EDEDED';
+  document.getElementById('d').style.backgroundColor='#EDEDED';
   document.getElementById('e').style.backgroundColor='red';
   
 }
