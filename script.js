@@ -5,7 +5,13 @@ if ('serviceWorker' in navigator) {
   }
 
 
+function municipios(){
 
+
+
+
+  
+}
   
  function cambio2() {
   document.getElementById('año1').innerHTML="1729";
