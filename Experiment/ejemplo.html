@@ -1,37 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<!DOCTYPE html> 
+<html> 
+  
+<body> 
+  
+  <h4> 
+      Change the text of the text field  
+      ,and then click the button. 
+  </h4> 
+  
+  <label for="domTextElement">Name: </label>
+  <input type="text" id="domTextElement" > 
+  
+  <button type="button"  onclick="getValueInput()"> 
+      click me!! 
+  </button> 
+  
+  <p id="valueInput"></p> 
 
+  <script> 
 
-<label for="clima">Seleccione el tipo de clima de hoy: </label>
-<select id="clima">
-  <option value="">--Haga una elección--</option>
-  <option value="soleado">Soleado</option>
-  <option value="lluvioso">Lluvioso</option>
-  <option value="nevando">Nevando</option>
-  <option value="nublado">Nublado</option>
-</select>
-<p></p>
+    const getValueInput = () =>{
+      let inputValue = document.getElementById("domTextElement").value; 
+      document.getElementById("valueInput").innerHTML = inputValue; 
+    }
+    
 
-<INPUT TYPE="button" NAME="drop" id="dropbutton" style="background-color:#D1E8D5;" VALUE="hello word">
+  </script> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <button id="a">Botón</button>
+  <div id="div"></div>
   <script>
-  document.getElementById('dropbutton').onclick = function() {
-      if (Calc.Input.value == '' || Calc.Input.value == '0') {
-           window.alert("Please enter a number");
-      } else {
-          document.getElementById('dropbutton').value=' jejejejej';
-          document.getElementById('length').innerHTML = Calc.Input.value;
-          document.getElementById('dropbutton').style.backgroundColor = '#FFF6B3';
-      }
-      return false;
+  
+  //Esto es sólo un ejemplo a medias
+  var v = 0;
+  setValor();
+  $('#a').click(function(){
+    v++;
+    setValor();
+  });
+  
+  function setValor(){
+    $('#div').html(v);
   }
+  
   </script>
-</body>
-<script src="../Experiment/ejemplo.js"> </script>
-</html>
+</body> 
+  
+</html> 
