@@ -196,7 +196,7 @@ if ('serviceWorker' in navigator) {
       document.getElementById('año5').innerHTML="$40.6 MP";
       document.getElementById('año6').innerHTML="12265";
 
-      document.getElementById('m_uno').style.backgroundColor='red';
+      document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
       document.getElementById('m_tres').style.backgroundColor='#EDEDED';
       document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
@@ -223,9 +223,9 @@ if ('serviceWorker' in navigator) {
       document.getElementById('año1').innerHTML="153";
       document.getElementById('año2').innerHTML="$1 MP";
       document.getElementById('año3').innerHTML="103";
-      document.getElementById('año4').innerHTML="6156";
-      document.getElementById('año5').innerHTML="$17 MP";
-      document.getElementById('año6').innerHTML="5732";
+      document.getElementById('año4').innerHTML="186";
+      document.getElementById('año5').innerHTML="$500 000 P";
+      document.getElementById('año6').innerHTML="173";
      
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='red';
@@ -248,9 +248,9 @@ if ('serviceWorker' in navigator) {
       document.getElementById('año1').innerHTML="137";
       document.getElementById('año2').innerHTML="$1 MP";
       document.getElementById('año3').innerHTML="55";
-      document.getElementById('año4').innerHTML="2215"
-      document.getElementById('año5').innerHTML="$5 MP";
-      document.getElementById('año6').innerHTML="2035";
+      document.getElementById('año4').innerHTML="626";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="576";
 
        document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='red';
@@ -273,9 +273,9 @@ if ('serviceWorker' in navigator) {
       document.getElementById('año1').innerHTML="322";
       document.getElementById('año2').innerHTML="$3 MP";
       document.getElementById('año3').innerHTML="97 ";
-      document.getElementById('año4').innerHTML="1967";
-      document.getElementById('año5').innerHTML="$7 MP";
-      document.getElementById('año6').innerHTML="1776";
+      document.getElementById('año4').innerHTML="271";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="240";
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='red';
@@ -303,7 +303,7 @@ if ('serviceWorker' in navigator) {
       document.getElementById('año6').innerHTML="12265";
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
-      document.getElementById('m_dos').style.backgroundColor='red';
+      document.getElementById('m_dos').style.backgroundColor='#EDEDED';
       document.getElementById('m_tres').style.backgroundColor='#EDEDED';
       document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
@@ -324,12 +324,12 @@ if ('serviceWorker' in navigator) {
   element2.addEventListener("click", () => {
 
     if(año == 1 ){
-      document.getElementById('año1').innerHTML="153";
-      document.getElementById('año2').innerHTML="$1 MP";
-      document.getElementById('año3').innerHTML="103";
-      document.getElementById('año4').innerHTML="6156";
-      document.getElementById('año5').innerHTML="$17 MP";
-      document.getElementById('año6').innerHTML="5732";
+      document.getElementById('año1').innerHTML="184";
+      document.getElementById('año2').innerHTML="$2 MP";
+      document.getElementById('año3').innerHTML="126";
+      document.getElementById('año4').innerHTML="110";
+      document.getElementById('año5').innerHTML="$300 000 P";
+      document.getElementById('año6').innerHTML="104";
      
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
@@ -349,12 +349,12 @@ if ('serviceWorker' in navigator) {
       document.getElementById('e').style.backgroundColor='#EDEDED';
 
     }else if(año == 2){
-      document.getElementById('año1').innerHTML="137";
-      document.getElementById('año2').innerHTML="$1 MP";
-      document.getElementById('año3').innerHTML="55";
-      document.getElementById('año4').innerHTML="2215"
-      document.getElementById('año5').innerHTML="$5 MP";
-      document.getElementById('año6').innerHTML="2035";
+      document.getElementById('año1').innerHTML="93";
+      document.getElementById('año2').innerHTML="$800 000P";
+      document.getElementById('año3').innerHTML="58";
+      document.getElementById('año4').innerHTML="255"
+      document.getElementById('año5').innerHTML="$600 000 P";
+      document.getElementById('año6').innerHTML="218";
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
@@ -375,16 +375,16 @@ if ('serviceWorker' in navigator) {
       document.getElementById('e').style.backgroundColor='#EDEDED';
       
     }else if(año == 3){
-      document.getElementById('año1').innerHTML="322";
-      document.getElementById('año2').innerHTML="$3 MP";
-      document.getElementById('año3').innerHTML="97 ";
+      document.getElementById('año1').innerHTML="747";
+      document.getElementById('año2').innerHTML="$7 MP";
+      document.getElementById('año3').innerHTML="258 ";
       document.getElementById('año4').innerHTML="1967";
       document.getElementById('año5').innerHTML="$7 MP";
       document.getElementById('año6').innerHTML="1776";
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
-      document.getElementById('m_tres').style.backgroundColor='red';
+      document.getElementById('m_tres').style.backgroundColor='#EDEDED';
       document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
@@ -410,7 +410,7 @@ if ('serviceWorker' in navigator) {
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
-      document.getElementById('m_tres').style.backgroundColor='red';
+      document.getElementById('m_tres').style.backgroundColor='#EDEDED';
       document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
@@ -431,12 +431,12 @@ if ('serviceWorker' in navigator) {
   element3.addEventListener("click", () => {
 
     if(año == 1 ){
-      document.getElementById('año1').innerHTML="153";
-      document.getElementById('año2').innerHTML="$1 MP";
-      document.getElementById('año3').innerHTML="103";
-      document.getElementById('año4').innerHTML="6156";
-      document.getElementById('año5').innerHTML="$17 MP";
-      document.getElementById('año6').innerHTML="5732";
+      document.getElementById('año1').innerHTML="229";
+      document.getElementById('año2').innerHTML="$2 MP";
+      document.getElementById('año3').innerHTML="150";
+      document.getElementById('año4').innerHTML="248";
+      document.getElementById('año5').innerHTML="$700 000 P";
+      document.getElementById('año6').innerHTML="236";
      
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
@@ -456,12 +456,12 @@ if ('serviceWorker' in navigator) {
       document.getElementById('e').style.backgroundColor='#EDEDED';
 
     }else if(año == 2){
-      document.getElementById('año1').innerHTML="137";
-      document.getElementById('año2').innerHTML="$1 MP";
-      document.getElementById('año3').innerHTML="55";
-      document.getElementById('año4').innerHTML="2215"
-      document.getElementById('año5').innerHTML="$5 MP";
-      document.getElementById('año6').innerHTML="2035";
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$12 000 P";
+      document.getElementById('año3').innerHTML="0";
+      document.getElementById('año4').innerHTML="6"
+      document.getElementById('año5').innerHTML="$16 000 P";
+      document.getElementById('año6').innerHTML="6";
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
@@ -481,9 +481,9 @@ if ('serviceWorker' in navigator) {
       document.getElementById('e').style.backgroundColor='#EDEDED';
       
     }else if(año == 3){
-      document.getElementById('año1').innerHTML="322";
-      document.getElementById('año2').innerHTML="$3 MP";
-      document.getElementById('año3').innerHTML="97 ";
+      document.getElementById('año1').innerHTML="747";
+      document.getElementById('año2').innerHTML="$7 MP";
+      document.getElementById('año3').innerHTML="258 ";
       document.getElementById('año4').innerHTML="1967";
       document.getElementById('año5').innerHTML="$7 MP";
       document.getElementById('año6').innerHTML="1776";
@@ -491,7 +491,7 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
       document.getElementById('m_tres').style.backgroundColor='#EDEDED';
-      document.getElementById('m_cuatro').style.backgroundColor='red';
+      document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
@@ -516,7 +516,7 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
       document.getElementById('m_tres').style.backgroundColor='#EDEDED';
-      document.getElementById('m_cuatro').style.backgroundColor='red';
+      document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
@@ -535,12 +535,12 @@ if ('serviceWorker' in navigator) {
   element4.addEventListener("click", () => {
 
     if(año == 1 ){
-      document.getElementById('año1').innerHTML="153";
-      document.getElementById('año2').innerHTML="$1 MP";
-      document.getElementById('año3').innerHTML="103";
-      document.getElementById('año4').innerHTML="6156";
-      document.getElementById('año5').innerHTML="$17 MP";
-      document.getElementById('año6').innerHTML="5732";
+      document.getElementById('año1').innerHTML="284";
+      document.getElementById('año2').innerHTML="$3 MP";
+      document.getElementById('año3').innerHTML="146";
+      document.getElementById('año4').innerHTML="47";
+      document.getElementById('año5').innerHTML="$100 000 P";
+      document.getElementById('año6').innerHTML="44";
      
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
@@ -560,12 +560,12 @@ if ('serviceWorker' in navigator) {
       document.getElementById('e').style.backgroundColor='#EDEDED';
 
     }else if(año == 2){
-      document.getElementById('año1').innerHTML="137";
+      document.getElementById('año1').innerHTML="109";
       document.getElementById('año2').innerHTML="$1 MP";
-      document.getElementById('año3').innerHTML="55";
-      document.getElementById('año4').innerHTML="2215"
-      document.getElementById('año5').innerHTML="$5 MP";
-      document.getElementById('año6').innerHTML="2035";
+      document.getElementById('año3').innerHTML="54";
+      document.getElementById('año4').innerHTML="884"
+      document.getElementById('año5').innerHTML="$2 MP";
+      document.getElementById('año6').innerHTML="818";
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
@@ -585,12 +585,12 @@ if ('serviceWorker' in navigator) {
       document.getElementById('e').style.backgroundColor='#EDEDED';
       
     }else if(año == 3){
-      document.getElementById('año1').innerHTML="322";
-      document.getElementById('año2').innerHTML="$3 MP";
-      document.getElementById('año3').innerHTML="97 ";
-      document.getElementById('año4').innerHTML="1967";
-      document.getElementById('año5').innerHTML="$7 MP";
-      document.getElementById('año6').innerHTML="1776";
+      document.getElementById('año1').innerHTML="171";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="69";
+      document.getElementById('año4').innerHTML="613";
+      document.getElementById('año5').innerHTML="$2 MP";
+      document.getElementById('año6').innerHTML="546";
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
@@ -622,7 +622,7 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
       document.getElementById('m_tres').style.backgroundColor='#EDEDED';
       document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
-      document.getElementById('m_cinco').style.backgroundColor='red';
+      document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
       document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
@@ -641,12 +641,12 @@ if ('serviceWorker' in navigator) {
   element5.addEventListener("click", () => {
 
     if(año == 1 ){
-      document.getElementById('año1').innerHTML="153";
-      document.getElementById('año2').innerHTML="$1 MP";
-      document.getElementById('año3').innerHTML="103";
-      document.getElementById('año4').innerHTML="6156";
-      document.getElementById('año5').innerHTML="$17 MP";
-      document.getElementById('año6').innerHTML="5732";
+      document.getElementById('año1').innerHTML="304";
+      document.getElementById('año2').innerHTML="$3 MP";
+      document.getElementById('año3').innerHTML="211";
+      document.getElementById('año4').innerHTML="53";
+      document.getElementById('año5').innerHTML="$100 000 P";
+      document.getElementById('año6').innerHTML="48";
      
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
@@ -666,12 +666,12 @@ if ('serviceWorker' in navigator) {
       document.getElementById('e').style.backgroundColor='#EDEDED';
 
     }else if(año == 2){
-      document.getElementById('año1').innerHTML="137";
-      document.getElementById('año2').innerHTML="$1 MP";
-      document.getElementById('año3').innerHTML="55";
-      document.getElementById('año4').innerHTML="2215"
-      document.getElementById('año5').innerHTML="$5 MP";
-      document.getElementById('año6').innerHTML="2035";
+      document.getElementById('año1').innerHTML="-";
+      document.getElementById('año2').innerHTML="$- MP";
+      document.getElementById('año3').innerHTML="-";
+      document.getElementById('año4').innerHTML="5"
+      document.getElementById('año5').innerHTML="$13 000 P";
+      document.getElementById('año6').innerHTML="5";
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
@@ -691,12 +691,12 @@ if ('serviceWorker' in navigator) {
       document.getElementById('e').style.backgroundColor='#EDEDED';
       
     }else if(año == 3){
-      document.getElementById('año1').innerHTML="322";
-      document.getElementById('año2').innerHTML="$3 MP";
-      document.getElementById('año3').innerHTML="97 ";
-      document.getElementById('año4').innerHTML="1967";
-      document.getElementById('año5').innerHTML="$7 MP";
-      document.getElementById('año6').innerHTML="1776";
+      document.getElementById('año1').innerHTML="-";
+      document.getElementById('año2').innerHTML="$- MP";
+      document.getElementById('año3').innerHTML="- ";
+      document.getElementById('año4').innerHTML="4";
+      document.getElementById('año5').innerHTML="$15 000 P";
+      document.getElementById('año6').innerHTML="2";
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
@@ -728,7 +728,7 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_tres').style.backgroundColor='#EDEDED';
       document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
-      document.getElementById('m_seis').style.backgroundColor='red';
+      document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
       document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
       document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
@@ -745,12 +745,12 @@ if ('serviceWorker' in navigator) {
   element6.addEventListener("click", () => {
 
     if(año == 1 ){
-      document.getElementById('año1').innerHTML="153";
-      document.getElementById('año2').innerHTML="$1 MP";
-      document.getElementById('año3').innerHTML="103";
-      document.getElementById('año4').innerHTML="6156";
-      document.getElementById('año5').innerHTML="$17 MP";
-      document.getElementById('año6').innerHTML="5732";
+      document.getElementById('año1').innerHTML="6";
+      document.getElementById('año2').innerHTML="$82 000 P";
+      document.getElementById('año3').innerHTML="6";
+      document.getElementById('año4').innerHTML="16";
+      document.getElementById('año5').innerHTML="$45 000 P";
+      document.getElementById('año6').innerHTML="15";
      
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
@@ -770,12 +770,12 @@ if ('serviceWorker' in navigator) {
       document.getElementById('e').style.backgroundColor='#EDEDED';
 
     }else if(año == 2){
-      document.getElementById('año1').innerHTML="137";
-      document.getElementById('año2').innerHTML="$1 MP";
-      document.getElementById('año3').innerHTML="55";
-      document.getElementById('año4').innerHTML="2215"
-      document.getElementById('año5').innerHTML="$5 MP";
-      document.getElementById('año6').innerHTML="2035";
+      document.getElementById('año1').innerHTML="-";
+      document.getElementById('año2').innerHTML="$- MP";
+      document.getElementById('año3').innerHTML="-";
+      document.getElementById('año4').innerHTML="1"
+      document.getElementById('año5').innerHTML="$2000 P";
+      document.getElementById('año6').innerHTML="1";
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
@@ -795,12 +795,12 @@ if ('serviceWorker' in navigator) {
       document.getElementById('e').style.backgroundColor='#EDEDED';
       
     }else if(año == 3){
-      document.getElementById('año1').innerHTML="322";
-      document.getElementById('año2').innerHTML="$3 MP";
-      document.getElementById('año3').innerHTML="97 ";
-      document.getElementById('año4').innerHTML="1967";
-      document.getElementById('año5').innerHTML="$7 MP";
-      document.getElementById('año6').innerHTML="1776";
+      document.getElementById('año1').innerHTML="-";
+      document.getElementById('año2').innerHTML="$- MP";
+      document.getElementById('año3').innerHTML="- ";
+      document.getElementById('año4').innerHTML="2";
+      document.getElementById('año5').innerHTML="$7 000 P";
+      document.getElementById('año6').innerHTML="2";
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
@@ -833,7 +833,7 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
-      document.getElementById('m_siete').style.backgroundColor='red';
+      document.getElementById('m_siete').style.backgroundColor='#EDEDED';
       document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
       document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
       document.getElementById('m_diez').style.backgroundColor='#EDEDED';
@@ -849,12 +849,12 @@ if ('serviceWorker' in navigator) {
   element7.addEventListener("click", () => {
 
     if(año == 1 ){
-      document.getElementById('año1').innerHTML="153";
-      document.getElementById('año2').innerHTML="$1 MP";
-      document.getElementById('año3').innerHTML="103";
-      document.getElementById('año4').innerHTML="6156";
-      document.getElementById('año5').innerHTML="$17 MP";
-      document.getElementById('año6').innerHTML="5732";
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$14 000 P";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="4";
+      document.getElementById('año5').innerHTML="$11 000 P";
+      document.getElementById('año6').innerHTML="4";
      
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
@@ -874,9 +874,9 @@ if ('serviceWorker' in navigator) {
       document.getElementById('e').style.backgroundColor='#EDEDED';
 
     }else if(año == 2){
-      document.getElementById('año1').innerHTML="137";
-      document.getElementById('año2').innerHTML="$1 MP";
-      document.getElementById('año3').innerHTML="55";
+      document.getElementById('año1').innerHTML="613";
+      document.getElementById('año2').innerHTML="$6 MP";
+      document.getElementById('año3').innerHTML="290";
       document.getElementById('año4').innerHTML="2215"
       document.getElementById('año5').innerHTML="$5 MP";
       document.getElementById('año6').innerHTML="2035";
@@ -888,7 +888,7 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='red';
+      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
       document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
       document.getElementById('m_diez').style.backgroundColor='#EDEDED';
       document.getElementById('m_once').style.backgroundColor='#EDEDED';
@@ -899,9 +899,9 @@ if ('serviceWorker' in navigator) {
       document.getElementById('e').style.backgroundColor='#EDEDED';
       
     }else if(año == 3){
-      document.getElementById('año1').innerHTML="322";
-      document.getElementById('año2').innerHTML="$3 MP";
-      document.getElementById('año3').innerHTML="97 ";
+      document.getElementById('año1').innerHTML="747";
+      document.getElementById('año2').innerHTML="$7 MP";
+      document.getElementById('año3').innerHTML="258 ";
       document.getElementById('año4').innerHTML="1967";
       document.getElementById('año5').innerHTML="$7 MP";
       document.getElementById('año6').innerHTML="1776";
@@ -913,7 +913,7 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='red';
+      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
       document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
       document.getElementById('m_diez').style.backgroundColor='#EDEDED';
       document.getElementById('m_once').style.backgroundColor='#EDEDED';
@@ -938,7 +938,7 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='red';
+      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
       document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
       document.getElementById('m_diez').style.backgroundColor='#EDEDED';
       document.getElementById('m_once').style.backgroundColor='#EDEDED';
@@ -953,12 +953,12 @@ if ('serviceWorker' in navigator) {
   element8.addEventListener("click", () => {
 
     if(año == 1 ){
-      document.getElementById('año1').innerHTML="153";
-      document.getElementById('año2').innerHTML="$1 MP";
-      document.getElementById('año3').innerHTML="103";
-      document.getElementById('año4').innerHTML="6156";
-      document.getElementById('año5').innerHTML="$17 MP";
-      document.getElementById('año6').innerHTML="5732";
+      document.getElementById('año1').innerHTML="-";
+      document.getElementById('año2').innerHTML="$- MP";
+      document.getElementById('año3').innerHTML="-";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$2000 P";
+      document.getElementById('año6').innerHTML="1";
      
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
@@ -978,9 +978,9 @@ if ('serviceWorker' in navigator) {
       document.getElementById('e').style.backgroundColor='#EDEDED';
 
     }else if(año == 2){
-      document.getElementById('año1').innerHTML="137";
-      document.getElementById('año2').innerHTML="$1 MP";
-      document.getElementById('año3').innerHTML="55";
+      document.getElementById('año1').innerHTML="613";
+      document.getElementById('año2').innerHTML="$6 MP";
+      document.getElementById('año3').innerHTML="290";
       document.getElementById('año4').innerHTML="2215"
       document.getElementById('año5').innerHTML="$5 MP";
       document.getElementById('año6').innerHTML="2035";
@@ -993,7 +993,7 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
       document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='red';
+      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
       document.getElementById('m_diez').style.backgroundColor='#EDEDED';
       document.getElementById('m_once').style.backgroundColor='#EDEDED';
 
@@ -1003,9 +1003,9 @@ if ('serviceWorker' in navigator) {
       document.getElementById('e').style.backgroundColor='#EDEDED';
       
     }else if(año == 3){
-      document.getElementById('año1').innerHTML="322";
-      document.getElementById('año2').innerHTML="$3 MP";
-      document.getElementById('año3').innerHTML="97 ";
+      document.getElementById('año1').innerHTML="747";
+      document.getElementById('año2').innerHTML="$7 MP";
+      document.getElementById('año3').innerHTML="258 ";
       document.getElementById('año4').innerHTML="1967";
       document.getElementById('año5').innerHTML="$7 MP";
       document.getElementById('año6').innerHTML="1776";
@@ -1018,7 +1018,7 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
       document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='red';
+      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
       document.getElementById('m_diez').style.backgroundColor='#EDEDED';
       document.getElementById('m_once').style.backgroundColor='#EDEDED';
 
@@ -1043,7 +1043,7 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
       document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='red';
+      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
       document.getElementById('m_diez').style.backgroundColor='#EDEDED';
       document.getElementById('m_once').style.backgroundColor='#EDEDED';
 
@@ -1057,12 +1057,12 @@ if ('serviceWorker' in navigator) {
   element9.addEventListener("click", () => {
 
     if(año == 1 ){
-      document.getElementById('año1').innerHTML="153";
-      document.getElementById('año2').innerHTML="$1 MP";
-      document.getElementById('año3').innerHTML="103";
-      document.getElementById('año4').innerHTML="6156";
-      document.getElementById('año5').innerHTML="$17 MP";
-      document.getElementById('año6').innerHTML="5732";
+      document.getElementById('año1').innerHTML="26";
+      document.getElementById('año2').innerHTML="$300 000 P";
+      document.getElementById('año3').innerHTML="23";
+      document.getElementById('año4').innerHTML="39";
+      document.getElementById('año5').innerHTML="$100 000 MP";
+      document.getElementById('año6').innerHTML="39";
      
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
@@ -1082,12 +1082,12 @@ if ('serviceWorker' in navigator) {
       document.getElementById('e').style.backgroundColor='#EDEDED';
 
     }else if(año == 2){
-      document.getElementById('año1').innerHTML="137";
-      document.getElementById('año2').innerHTML="$1 MP";
-      document.getElementById('año3').innerHTML="55";
-      document.getElementById('año4').innerHTML="2215"
-      document.getElementById('año5').innerHTML="$5 MP";
-      document.getElementById('año6').innerHTML="2035";
+      document.getElementById('año1').innerHTML="-";
+      document.getElementById('año2').innerHTML="$- MP";
+      document.getElementById('año3').innerHTML="-";
+      document.getElementById('año4').innerHTML="2"
+      document.getElementById('año5').innerHTML="$5 000 P";
+      document.getElementById('año6').innerHTML="2";
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
@@ -1107,9 +1107,9 @@ if ('serviceWorker' in navigator) {
       document.getElementById('e').style.backgroundColor='#EDEDED';
       
     }else if(año == 3){
-      document.getElementById('año1').innerHTML="322";
-      document.getElementById('año2').innerHTML="$3 MP";
-      document.getElementById('año3').innerHTML="97 ";
+      document.getElementById('año1').innerHTML="747";
+      document.getElementById('año2').innerHTML="$7 MP";
+      document.getElementById('año3').innerHTML="258 ";
       document.getElementById('año4').innerHTML="1967";
       document.getElementById('año5').innerHTML="$7 MP";
       document.getElementById('año6').innerHTML="1776";
@@ -1123,7 +1123,7 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
       document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
       document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
-      document.getElementById('m_diez').style.backgroundColor='red';
+      document.getElementById('m_diez').style.backgroundColor='#EDEDED';
       document.getElementById('m_once').style.backgroundColor='#EDEDED';
 
       document.getElementById('b').style.backgroundColor='#EDEDED';
@@ -1148,7 +1148,7 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
       document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
       document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
-      document.getElementById('m_diez').style.backgroundColor='red';
+      document.getElementById('m_diez').style.backgroundColor='#EDEDED';
       document.getElementById('m_once').style.backgroundColor='#EDEDED';
 
       document.getElementById('b').style.backgroundColor='#EDEDED';
@@ -1161,12 +1161,12 @@ if ('serviceWorker' in navigator) {
   element10.addEventListener("click", () => {
 
     if(año == 1 ){
-      document.getElementById('año1').innerHTML="153";
-      document.getElementById('año2').innerHTML="$1 MP";
-      document.getElementById('año3').innerHTML="103";
-      document.getElementById('año4').innerHTML="6156";
-      document.getElementById('año5').innerHTML="$17 MP";
-      document.getElementById('año6').innerHTML="5732";
+      document.getElementById('año1').innerHTML="-";
+      document.getElementById('año2').innerHTML="$- MP";
+      document.getElementById('año3').innerHTML="-";
+      document.getElementById('año4').innerHTML="2";
+      document.getElementById('año5').innerHTML="$5 000 P";
+      document.getElementById('año6').innerHTML="2";
      
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
@@ -1186,12 +1186,12 @@ if ('serviceWorker' in navigator) {
       document.getElementById('e').style.backgroundColor='#EDEDED';
 
     }else if(año == 2){
-      document.getElementById('año1').innerHTML="137";
-      document.getElementById('año2').innerHTML="$1 MP";
-      document.getElementById('año3').innerHTML="55";
-      document.getElementById('año4').innerHTML="2215"
-      document.getElementById('año5').innerHTML="$5 MP";
-      document.getElementById('año6').innerHTML="2035";
+      document.getElementById('año1').innerHTML="-";
+      document.getElementById('año2').innerHTML="$- MP";
+      document.getElementById('año3').innerHTML="-";
+      document.getElementById('año4').innerHTML="1"
+      document.getElementById('año5').innerHTML="$2000 P";
+      document.getElementById('año6').innerHTML="1";
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
@@ -1211,9 +1211,9 @@ if ('serviceWorker' in navigator) {
       document.getElementById('e').style.backgroundColor='#EDEDED';
       
     }else if(año == 3){
-      document.getElementById('año1').innerHTML="322";
-      document.getElementById('año2').innerHTML="$3 MP";
-      document.getElementById('año3').innerHTML="97 ";
+      document.getElementById('año1').innerHTML="747";
+      document.getElementById('año2').innerHTML="$7 MP";
+      document.getElementById('año3').innerHTML="258 ";
       document.getElementById('año4').innerHTML="1967";
       document.getElementById('año5').innerHTML="$7 MP";
       document.getElementById('año6').innerHTML="1776";
@@ -1228,7 +1228,7 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
       document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
       document.getElementById('m_diez').style.backgroundColor='#EDEDED';
-      document.getElementById('m_once').style.backgroundColor='red';
+      document.getElementById('m_once').style.backgroundColor='#EDEDED';
 
       document.getElementById('b').style.backgroundColor='#EDEDED';
       document.getElementById('c').style.backgroundColor='#EDEDED';
@@ -1253,7 +1253,7 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
       document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
       document.getElementById('m_diez').style.backgroundColor='#EDEDED';
-      document.getElementById('m_once').style.backgroundColor='red';
+      document.getElementById('m_once').style.backgroundColor='#EDEDED';
 
       document.getElementById('b').style.backgroundColor='#EDEDED';
       document.getElementById('c').style.backgroundColor='#EDEDED';
