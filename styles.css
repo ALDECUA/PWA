@@ -138,7 +138,7 @@ text-align: center;
 .municipios{
     
     justify-content: center;
-    margin:5% 10%;
+    margin:1% 15%;
 }
 .nombres_municipios{
    font-size: 6vh;
@@ -173,11 +173,12 @@ text-align: center;
 
    display: flex;
    justify-content: center;
+   margin: 2% auto ;
 }
 .años button{
     align-items: center;
-    margin: 4% .5%;
-    width: 12vw;
+    margin: 2% .5%;
+    width: 10vw;
     height: 5vh;
     font-weight: 700;
     font-size: 100%;
