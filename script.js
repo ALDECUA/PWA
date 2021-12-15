@@ -19,15 +19,21 @@ if ('serviceWorker' in navigator) {
     
     document.getElementById('m_uno').style.backgroundColor='#EDEDED';
     document.getElementById('m_dos').style.backgroundColor='#EDEDED';
+    document.getElementById('m_tres').style.display='inline';
     document.getElementById('m_tres').style.backgroundColor='#EDEDED';
+    document.getElementById('m_cuatro').style.display='inline';
     document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
     document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
     document.getElementById('m_seis').style.backgroundColor='#EDEDED';
     document.getElementById('m_siete').style.backgroundColor='#EDEDED';
+    document.getElementById('m_ocho').style.display='inline';
     document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
     document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
+    document.getElementById('m_nueve').style.display='inline';
     document.getElementById('m_diez').style.backgroundColor='#EDEDED';
+    document.getElementById('m_diez').style.display='inline';
     document.getElementById('m_once').style.backgroundColor='#EDEDED';
+    document.getElementById('m_once').style.display='inline';
 
     document.getElementById('b').style.backgroundColor='red';
     document.getElementById('c').style.backgroundColor='#EDEDED';
@@ -44,6 +50,16 @@ if ('serviceWorker' in navigator) {
     document.getElementById('año5').innerHTML="$5 MP";
     document.getElementById('año6').innerHTML="2035";
 
+    document.getElementById('m_uno').style.display='inline';   
+    document.getElementById('m_dos').style.display='inline';  
+    document.getElementById('m_tres').style.display='inline';  
+    document.getElementById('m_cuatro').style.display='inline';  
+    document.getElementById('m_cinco').style.display='inline';  
+    document.getElementById('m_seis').style.display='inline';  
+    document.getElementById('m_siete').style.display='inline';  
+    document.getElementById('m_diez').style.display='inline';  
+    document.getElementById('m_once').style.display='inline';   
+
     document.getElementById('m_uno').style.backgroundColor='#EDEDED';
     document.getElementById('m_dos').style.backgroundColor='#EDEDED';
     document.getElementById('m_tres').style.backgroundColor='#EDEDED';
@@ -51,8 +67,8 @@ if ('serviceWorker' in navigator) {
     document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
     document.getElementById('m_seis').style.backgroundColor='#EDEDED';
     document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-    document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-    document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
+    document.getElementById('m_ocho').style.display='none';
+    document.getElementById('m_nueve').style.display='none';
     document.getElementById('m_diez').style.backgroundColor='#EDEDED';
     document.getElementById('m_once').style.backgroundColor='#EDEDED';
     
@@ -68,17 +84,19 @@ if ('serviceWorker' in navigator) {
     document.getElementById('año4').innerHTML="1967";
     document.getElementById('año5').innerHTML="$7 MP";
     document.getElementById('año6').innerHTML="1776";
+
     document.getElementById('m_uno').style.backgroundColor='#EDEDED';
     document.getElementById('m_dos').style.backgroundColor='#EDEDED';
-    document.getElementById('m_tres').style.backgroundColor='#EDEDED';
-    document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
+    document.getElementById('m_tres').style.display='none';
+    document.getElementById('m_cuatro').style.display='none';
     document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
     document.getElementById('m_seis').style.backgroundColor='#EDEDED';
     document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-    document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-    document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
-    document.getElementById('m_diez').style.backgroundColor='#EDEDED';
-    document.getElementById('m_once').style.backgroundColor='#EDEDED';
+    document.getElementById('m_ocho').style.display='none';
+    document.getElementById('m_nueve').style.display='none';
+    document.getElementById('m_diez').style.display='none';
+    document.getElementById('m_once').style.display='none';
+
     document.getElementById('b').style.backgroundColor='#EDEDED';
     document.getElementById('c').style.backgroundColor='#EDEDED';
     document.getElementById('d').style.backgroundColor='red';
@@ -93,15 +111,21 @@ if ('serviceWorker' in navigator) {
     document.getElementById('año6').innerHTML="12265";
     document.getElementById('m_uno').style.backgroundColor='#EDEDED';
     document.getElementById('m_dos').style.backgroundColor='#EDEDED';
+    document.getElementById('m_tres').style.display='inline';
     document.getElementById('m_tres').style.backgroundColor='#EDEDED';
+    document.getElementById('m_cuatro').style.display='inline';
     document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
     document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
     document.getElementById('m_seis').style.backgroundColor='#EDEDED';
     document.getElementById('m_siete').style.backgroundColor='#EDEDED';
+    document.getElementById('m_ocho').style.display='inline';
     document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
     document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
+    document.getElementById('m_nueve').style.display='inline';
     document.getElementById('m_diez').style.backgroundColor='#EDEDED';
+    document.getElementById('m_diez').style.display='inline';
     document.getElementById('m_once').style.backgroundColor='#EDEDED';
+    document.getElementById('m_once').style.display='inline';
     document.getElementById('b').style.backgroundColor='#EDEDED';
     document.getElementById('c').style.backgroundColor='#EDEDED';
     document.getElementById('d').style.backgroundColor='#EDEDED';
@@ -137,6 +161,9 @@ if ('serviceWorker' in navigator) {
       document.getElementById('d').style.backgroundColor='#EDEDED';
       document.getElementById('e').style.backgroundColor='#EDEDED';
 
+
+
+
     }else if(año == 2){
       document.getElementById('año1').innerHTML="273";
       document.getElementById('año2').innerHTML="$3 MP";
@@ -152,8 +179,6 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
       document.getElementById('m_diez').style.backgroundColor='#EDEDED';
       document.getElementById('m_once').style.backgroundColor='#EDEDED';
 
@@ -170,17 +195,12 @@ if ('serviceWorker' in navigator) {
       document.getElementById('año5').innerHTML="$4 MP";
       document.getElementById('año6').innerHTML="986";
 
-      document.getElementById('m_uno').style.backgroundColor='red';
-      document.getElementById('m_dos').style.backgroundColor='#EDEDED';
-      document.getElementById('m_tres').style.backgroundColor='#EDEDED';
-      document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
-      document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
-      document.getElementById('m_seis').style.backgroundColor='#EDEDED';
-      document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
-      document.getElementById('m_diez').style.backgroundColor='#EDEDED';
-      document.getElementById('m_once').style.backgroundColor='#EDEDED';
+    document.getElementById('m_uno').style.backgroundColor='red';
+    document.getElementById('m_dos').style.backgroundColor='#EDEDED';
+    document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
+    document.getElementById('m_seis').style.backgroundColor='#EDEDED';
+    document.getElementById('m_siete').style.backgroundColor='#EDEDED';
+   
 
       document.getElementById('b').style.backgroundColor='#EDEDED';
       document.getElementById('c').style.backgroundColor='#EDEDED';
@@ -259,8 +279,6 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
       document.getElementById('m_diez').style.backgroundColor='#EDEDED';
       document.getElementById('m_once').style.backgroundColor='#EDEDED';
 
@@ -279,15 +297,9 @@ if ('serviceWorker' in navigator) {
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='red';
-      document.getElementById('m_tres').style.backgroundColor='#EDEDED';
-      document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
-      document.getElementById('m_diez').style.backgroundColor='#EDEDED';
-      document.getElementById('m_once').style.backgroundColor='#EDEDED';
 
       document.getElementById('b').style.backgroundColor='#EDEDED';
       document.getElementById('c').style.backgroundColor='#EDEDED';
@@ -363,8 +375,6 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
       document.getElementById('m_diez').style.backgroundColor='#EDEDED';
       document.getElementById('m_once').style.backgroundColor='#EDEDED';
 
@@ -384,15 +394,10 @@ if ('serviceWorker' in navigator) {
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
-      document.getElementById('m_tres').style.backgroundColor='#EDEDED';
-      document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
-      document.getElementById('m_diez').style.backgroundColor='#EDEDED';
-      document.getElementById('m_once').style.backgroundColor='#EDEDED';
+
 
 
       document.getElementById('b').style.backgroundColor='#EDEDED';
@@ -470,8 +475,6 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
       document.getElementById('m_diez').style.backgroundColor='#EDEDED';
       document.getElementById('m_once').style.backgroundColor='#EDEDED';
 
@@ -490,15 +493,10 @@ if ('serviceWorker' in navigator) {
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
-      document.getElementById('m_tres').style.backgroundColor='#EDEDED';
-      document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
-      document.getElementById('m_diez').style.backgroundColor='#EDEDED';
-      document.getElementById('m_once').style.backgroundColor='#EDEDED';
+
 
       document.getElementById('b').style.backgroundColor='#EDEDED';
       document.getElementById('c').style.backgroundColor='#EDEDED';
@@ -574,8 +572,6 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_cinco').style.backgroundColor='red';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
       document.getElementById('m_diez').style.backgroundColor='#EDEDED';
       document.getElementById('m_once').style.backgroundColor='#EDEDED';
 
@@ -594,15 +590,9 @@ if ('serviceWorker' in navigator) {
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
-      document.getElementById('m_tres').style.backgroundColor='#EDEDED';
-      document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
       document.getElementById('m_cinco').style.backgroundColor='red';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
-      document.getElementById('m_diez').style.backgroundColor='#EDEDED';
-      document.getElementById('m_once').style.backgroundColor='#EDEDED';
 
 
       document.getElementById('b').style.backgroundColor='#EDEDED';
@@ -680,8 +670,6 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='red';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
       document.getElementById('m_diez').style.backgroundColor='#EDEDED';
       document.getElementById('m_once').style.backgroundColor='#EDEDED';
 
@@ -700,15 +688,10 @@ if ('serviceWorker' in navigator) {
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
-      document.getElementById('m_tres').style.backgroundColor='#EDEDED';
-      document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='red';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
-      document.getElementById('m_diez').style.backgroundColor='#EDEDED';
-      document.getElementById('m_once').style.backgroundColor='#EDEDED';
+
 
       document.getElementById('b').style.backgroundColor='#EDEDED';
       document.getElementById('c').style.backgroundColor='#EDEDED';
@@ -784,8 +767,6 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='red';
-      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
       document.getElementById('m_diez').style.backgroundColor='#EDEDED';
       document.getElementById('m_once').style.backgroundColor='#EDEDED';
 
@@ -803,16 +784,10 @@ if ('serviceWorker' in navigator) {
       document.getElementById('año6').innerHTML="2";
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
-      document.getElementById('m_dos').style.backgroundColor='#EDEDED';
-      document.getElementById('m_tres').style.backgroundColor='#EDEDED';
-      document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
-      document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
-      document.getElementById('m_seis').style.backgroundColor='#EDEDED';
-      document.getElementById('m_siete').style.backgroundColor='red';
-      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
-      document.getElementById('m_diez').style.backgroundColor='#EDEDED';
-      document.getElementById('m_once').style.backgroundColor='#EDEDED';
+    document.getElementById('m_dos').style.backgroundColor='#EDEDED';
+    document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
+    document.getElementById('m_seis').style.backgroundColor='#EDEDED';
+    document.getElementById('m_siete').style.backgroundColor='red';
 
       document.getElementById('b').style.backgroundColor='#EDEDED';
       document.getElementById('c').style.backgroundColor='#EDEDED';
@@ -888,8 +863,6 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
       document.getElementById('m_diez').style.backgroundColor='#EDEDED';
       document.getElementById('m_once').style.backgroundColor='#EDEDED';
 
@@ -905,18 +878,11 @@ if ('serviceWorker' in navigator) {
       document.getElementById('año4').innerHTML="1967";
       document.getElementById('año5').innerHTML="$7 MP";
       document.getElementById('año6').innerHTML="1776";
-
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
-      document.getElementById('m_tres').style.backgroundColor='#EDEDED';
-      document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
-      document.getElementById('m_diez').style.backgroundColor='#EDEDED';
-      document.getElementById('m_once').style.backgroundColor='#EDEDED';
 
       document.getElementById('b').style.backgroundColor='#EDEDED';
       document.getElementById('c').style.backgroundColor='#EDEDED';
@@ -992,8 +958,6 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
       document.getElementById('m_diez').style.backgroundColor='#EDEDED';
       document.getElementById('m_once').style.backgroundColor='#EDEDED';
 
@@ -1012,15 +976,9 @@ if ('serviceWorker' in navigator) {
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
-      document.getElementById('m_tres').style.backgroundColor='#EDEDED';
-      document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
-      document.getElementById('m_diez').style.backgroundColor='#EDEDED';
-      document.getElementById('m_once').style.backgroundColor='#EDEDED';
 
       document.getElementById('b').style.backgroundColor='#EDEDED';
       document.getElementById('c').style.backgroundColor='#EDEDED';
@@ -1096,8 +1054,6 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
       document.getElementById('m_diez').style.backgroundColor='red';
       document.getElementById('m_once').style.backgroundColor='#EDEDED';
 
@@ -1116,15 +1072,10 @@ if ('serviceWorker' in navigator) {
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
-      document.getElementById('m_tres').style.backgroundColor='#EDEDED';
-      document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
-      document.getElementById('m_diez').style.backgroundColor='#EDEDED';
-      document.getElementById('m_once').style.backgroundColor='#EDEDED';
+
 
       document.getElementById('b').style.backgroundColor='#EDEDED';
       document.getElementById('c').style.backgroundColor='#EDEDED';
@@ -1200,8 +1151,6 @@ if ('serviceWorker' in navigator) {
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
       document.getElementById('m_diez').style.backgroundColor='#EDEDED';
       document.getElementById('m_once').style.backgroundColor='red';
 
@@ -1220,15 +1169,10 @@ if ('serviceWorker' in navigator) {
 
       document.getElementById('m_uno').style.backgroundColor='#EDEDED';
       document.getElementById('m_dos').style.backgroundColor='#EDEDED';
-      document.getElementById('m_tres').style.backgroundColor='#EDEDED';
-      document.getElementById('m_cuatro').style.backgroundColor='#EDEDED';
       document.getElementById('m_cinco').style.backgroundColor='#EDEDED';
       document.getElementById('m_seis').style.backgroundColor='#EDEDED';
       document.getElementById('m_siete').style.backgroundColor='#EDEDED';
-      document.getElementById('m_ocho').style.backgroundColor='#EDEDED';
-      document.getElementById('m_nueve').style.backgroundColor='#EDEDED';
-      document.getElementById('m_diez').style.backgroundColor='#EDEDED';
-      document.getElementById('m_once').style.backgroundColor='#EDEDED';
+
 
       document.getElementById('b').style.backgroundColor='#EDEDED';
       document.getElementById('c').style.backgroundColor='#EDEDED';
