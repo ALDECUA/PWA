@@ -41,7 +41,7 @@ if ('serviceWorker' in navigator) {
     document.getElementById('e').style.backgroundColor='#EDEDED';
     document.getElementById('actualizarfelipe1').style.display='none';
     document.getElementById('actualizarfelipe2').style.display='none';
-   
+    document.getElementById('actualizarfelipe3').style.display='none';
   }else if(año == 2){
     document.getElementById('año1').innerHTML="613";
     document.getElementById('año2').innerHTML="$6 MP";
@@ -78,6 +78,7 @@ if ('serviceWorker' in navigator) {
     document.getElementById('e').style.backgroundColor='#EDEDED';
     document.getElementById('actualizarfelipe1').style.display='none';
     document.getElementById('actualizarfelipe2').style.display='none';
+    document.getElementById('actualizarfelipe3').style.display='none';
   }else if(año == 3){
     document.getElementById('año1').innerHTML="747";
     document.getElementById('año2').innerHTML="$7 MP";
@@ -104,6 +105,7 @@ if ('serviceWorker' in navigator) {
     document.getElementById('e').style.backgroundColor='#EDEDED';
     document.getElementById('actualizarfelipe1').style.display='none';
     document.getElementById('actualizarfelipe2').style.display='none';
+    document.getElementById('actualizarfelipe3').style.display='none';
    
   }else if(año == 4){
     document.getElementById('año1').innerHTML="3089";
@@ -135,6 +137,7 @@ if ('serviceWorker' in navigator) {
     document.getElementById('e').style.backgroundColor='red';
     document.getElementById('actualizarfelipe1').style.display='none';
     document.getElementById('actualizarfelipe2').style.display='none';
+    document.getElementById('actualizarfelipe3').style.display='none';  
     
   }
 
@@ -169,7 +172,7 @@ if ('serviceWorker' in navigator) {
       
       document.getElementById('actualizarfelipe1').style.display='flex';
       document.getElementById('actualizarfelipe2').style.display='none';
-
+      document.getElementById('actualizarfelipe3').style.display='none';
     }else if(año == 2){
       document.getElementById('año1').innerHTML="273";
       document.getElementById('año2').innerHTML="$3 MP";
@@ -195,7 +198,7 @@ if ('serviceWorker' in navigator) {
 
       document.getElementById('actualizarfelipe1').style.display='none';
       document.getElementById('actualizarfelipe2').style.display='flex';
-      
+      document.getElementById('actualizarfelipe3').style.display='none';
     }else if(año == 3){
       document.getElementById('año1').innerHTML="253";
       document.getElementById('año2').innerHTML="$2 MP";
@@ -215,7 +218,9 @@ if ('serviceWorker' in navigator) {
       document.getElementById('c').style.backgroundColor='#EDEDED';
       document.getElementById('d').style.backgroundColor='red';
       document.getElementById('e').style.backgroundColor='#EDEDED';
-      
+      document.getElementById('actualizarfelipe1').style.display='none';
+      document.getElementById('actualizarfelipe2').style.display='none';
+      document.getElementById('actualizarfelipe3').style.display='flex';
 
     }else if(año == 4){
       document.getElementById('año1').innerHTML="3089";
