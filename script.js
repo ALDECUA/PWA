@@ -171,6 +171,7 @@ if ('serviceWorker' in navigator) {
       
       
       document.getElementById('actualizarjose1').style.display='none';
+      document.getElementById('actualizarlazaro1').style.display='none';
       document.getElementById('actualizartulum1').style.display='none';
       document.getElementById('actualizarbacalar1').style.display='none';
       document.getElementById('actualizarothon1').style.display='none';
@@ -207,6 +208,7 @@ if ('serviceWorker' in navigator) {
       document.getElementById('e').style.backgroundColor='#EDEDED';
 
       document.getElementById('actualizarjose1').style.display='none';
+      document.getElementById('actualizarlazaro1').style.display='none';
       document.getElementById('actualizartulum1').style.display='none';
       document.getElementById('actualizarbacalar1').style.display='none';
       document.getElementById('actualizarothon1').style.display='none';
@@ -240,6 +242,7 @@ if ('serviceWorker' in navigator) {
       document.getElementById('e').style.backgroundColor='#EDEDED';
 
       document.getElementById('actualizarjose1').style.display='none';
+      document.getElementById('actualizarlazaro1').style.display='none';
       document.getElementById('actualizartulum1').style.display='none';
       document.getElementById('actualizarbacalar1').style.display='none';
       document.getElementById('actualizarothon1').style.display='none';
@@ -309,7 +312,7 @@ if ('serviceWorker' in navigator) {
       document.getElementById('d').style.backgroundColor='#EDEDED';
       document.getElementById('e').style.backgroundColor='#EDEDED';
 
-      document.getElementById('actualizarjose1').style.display='none';
+      document.getElementById('actualizarfelipe1').style.display='none';
       document.getElementById('actualizartulum1').style.display='none';
       document.getElementById('actualizarbacalar1').style.display='none';
       document.getElementById('actualizarothon1').style.display='none';
@@ -345,15 +348,15 @@ if ('serviceWorker' in navigator) {
       document.getElementById('d').style.backgroundColor='#EDEDED';
       document.getElementById('e').style.backgroundColor='#EDEDED';
 
-      document.getElementById('actualizarjose1').style.display='none';
-      document.getElementById('actualizartulum1').style.display='none';
-      document.getElementById('actualizarbacalar1').style.display='none';
-      document.getElementById('actualizarothon1').style.display='none';
-      document.getElementById('actualizarbenito1').style.display='none';
-      document.getElementById('actualizarcozumel1').style.display='none';
-      document.getElementById('actualizarisla1').style.display='none';
-      document.getElementById('actualizarsolidaridad1').style.display='none';
-      document.getElementById('actualizarpuerto1').style.display='none';
+      document.getElementById('actualizarfelipe2').style.display='none';
+      document.getElementById('actualizartulum2').style.display='none';
+      document.getElementById('actualizarbacalar2').style.display='none';
+      document.getElementById('actualizarothon2').style.display='none';
+      document.getElementById('actualizarbenito2').style.display='none';
+      document.getElementById('actualizarcozumel2').style.display='none';
+      document.getElementById('actualizarisla2').style.display='none';
+      document.getElementById('actualizarsolidaridad2').style.display='none';
+      document.getElementById('actualizarpuerto2').style.display='none';
 
       document.getElementById('actualizarjose1').style.display='none';
       document.getElementById('actualizarjose2').style.display='flex';
@@ -377,15 +380,15 @@ if ('serviceWorker' in navigator) {
       document.getElementById('d').style.backgroundColor='red';
       document.getElementById('e').style.backgroundColor='#EDEDED';
 
-      document.getElementById('actualizarjose1').style.display='none';
-      document.getElementById('actualizartulum1').style.display='none';
-      document.getElementById('actualizarbacalar1').style.display='none';
-      document.getElementById('actualizarothon1').style.display='none';
-      document.getElementById('actualizarbenito1').style.display='none';
-      document.getElementById('actualizarcozumel1').style.display='none';
-      document.getElementById('actualizarisla1').style.display='none';
-      document.getElementById('actualizarsolidaridad1').style.display='none';
-      document.getElementById('actualizarpuerto1').style.display='none';
+      document.getElementById('actualizarfelipe3').style.display='none';
+      document.getElementById('actualizartulum3').style.display='none';
+      document.getElementById('actualizarbacalar3').style.display='none';
+      document.getElementById('actualizarothon3').style.display='none';
+      document.getElementById('actualizarbenito3').style.display='none';
+      document.getElementById('actualizarcozumel3').style.display='none';
+      document.getElementById('actualizarisla3').style.display='none';
+      document.getElementById('actualizarsolidaridad3').style.display='none';
+      document.getElementById('actualizarpuerto3').style.display='none';
 
       document.getElementById('actualizarjose1').style.display='none';
       document.getElementById('actualizarjose2').style.display='none';
@@ -444,8 +447,8 @@ if ('serviceWorker' in navigator) {
       document.getElementById('d').style.backgroundColor='#EDEDED';
       document.getElementById('e').style.backgroundColor='#EDEDED';
 
+      document.getElementById('actualizarfelipe1').style.display='none';
       document.getElementById('actualizarjose1').style.display='none';
-      document.getElementById('actualizartulum1').style.display='none';
       document.getElementById('actualizarbacalar1').style.display='none';
       document.getElementById('actualizarothon1').style.display='none';
       document.getElementById('actualizarbenito1').style.display='none';
@@ -481,8 +484,8 @@ if ('serviceWorker' in navigator) {
       document.getElementById('d').style.backgroundColor='#EDEDED';
       document.getElementById('e').style.backgroundColor='#EDEDED';
       
+      document.getElementById('actualizarfelipe2').style.display='none';
       document.getElementById('actualizarjose2').style.display='none';
-      document.getElementById('actualizartulum2').style.display='none';
       document.getElementById('actualizarbacalar2').style.display='none';
       document.getElementById('actualizarothon2').style.display='none';
       document.getElementById('actualizarbenito2').style.display='none';
@@ -513,8 +516,8 @@ if ('serviceWorker' in navigator) {
       document.getElementById('d').style.backgroundColor='red';
       document.getElementById('e').style.backgroundColor='#EDEDED';
       
+      document.getElementById('actualizarfelipe3').style.display='none';
       document.getElementById('actualizarjose3').style.display='none';
-      document.getElementById('actualizartulum3').style.display='none';
       document.getElementById('actualizarbacalar3').style.display='none';
       document.getElementById('actualizarothon3').style.display='none';
       document.getElementById('actualizarbenito1').style.display='none';
@@ -581,10 +584,10 @@ if ('serviceWorker' in navigator) {
       document.getElementById('d').style.backgroundColor='#EDEDED';
       document.getElementById('e').style.backgroundColor='#EDEDED';
 
+      document.getElementById('actualizarfelipe1').style.display='none';
       document.getElementById('actualizarjose1').style.display='none';
       document.getElementById('actualizartulum1').style.display='none';
       document.getElementById('actualizarbacalar1').style.display='none';
-      document.getElementById('actualizarothon1').style.display='none';
       document.getElementById('actualizarbenito1').style.display='none';
       document.getElementById('actualizarcozumel1').style.display='none';
       document.getElementById('actualizarisla1').style.display='none';
@@ -617,10 +620,10 @@ if ('serviceWorker' in navigator) {
       document.getElementById('d').style.backgroundColor='#EDEDED';
       document.getElementById('e').style.backgroundColor='#EDEDED';
       
+      document.getElementById('actualizarfelipe2').style.display='none';
       document.getElementById('actualizarjose2').style.display='none';
       document.getElementById('actualizartulum2').style.display='none';
       document.getElementById('actualizarbacalar2').style.display='none';
-      document.getElementById('actualizarothon2').style.display='none';
       document.getElementById('actualizarbenito2').style.display='none';
       document.getElementById('actualizarcozumel2').style.display='none';
       document.getElementById('actualizarisla2').style.display='none';
@@ -649,10 +652,10 @@ if ('serviceWorker' in navigator) {
       document.getElementById('d').style.backgroundColor='red';
       document.getElementById('e').style.backgroundColor='#EDEDED';
       
+      document.getElementById('actualizarfelipe3').style.display='none';
       document.getElementById('actualizarjose3').style.display='none';
       document.getElementById('actualizartulum3').style.display='none';
       document.getElementById('actualizarbacalar3').style.display='none';
-      document.getElementById('actualizarothon3').style.display='none';
       document.getElementById('actualizarbenito3').style.display='none';
       document.getElementById('actualizarcozumel3').style.display='none';
       document.getElementById('actualizarisla3').style.display='none';
