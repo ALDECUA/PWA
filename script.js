@@ -141,6 +141,7 @@ if ('serviceWorker' in navigator) {
     
   }
 
+  
 
   const element = document.getElementById('m_uno')/////////////////////////////////////////////////////////////
   element.addEventListener("click", () => {
@@ -178,6 +179,207 @@ if ('serviceWorker' in navigator) {
       document.getElementById('actualizarfelipe1').style.display='flex';
       document.getElementById('actualizarfelipe2').style.display='none';
       document.getElementById('actualizarfelipe3').style.display='none';
+    
+  const element = document.getElementById('actualizarfelipe1-s')/////////////////////////////////////////////////////////////
+  element.addEventListener("click", () => {
+
+    let a = document.getElementById('actualizarfelipe1-s').value;
+    if ( a == 0 ){
+      document.getElementById('año1').innerHTML="0";
+      document.getElementById('año2').innerHTML="$0 MP";
+      document.getElementById('año3').innerHTML="0";
+      document.getElementById('año4').innerHTML="0";
+      document.getElementById('año5').innerHTML="$0 MP";
+      document.getElementById('año6').innerHTML="0";
+  
+
+    }if ( a == 1 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }if ( a == 2 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }if ( a == 3 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }if ( a == 4 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }if ( a == 5 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }if ( a == 6 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }if ( a == 7 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }if ( a == 8 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }if ( a == 9 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }if ( a == 10 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }if ( a == 11 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }if ( a == 12 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }if ( a == 13 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }if ( a == 14 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }if ( a == 15 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }if ( a == 16 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }if ( a == 17 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }if ( a == 18 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }if ( a == 19 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }if ( a == 20 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }if ( a == 21 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }if ( a == 22 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }if ( a == 23 ){
+      document.getElementById('año1').innerHTML="1";
+      document.getElementById('año2').innerHTML="$1 MP";
+      document.getElementById('año3').innerHTML="1";
+      document.getElementById('año4').innerHTML="1";
+      document.getElementById('año5').innerHTML="$1 MP";
+      document.getElementById('año6').innerHTML="1";
+
+    }
+  });
+
     }else if(año == 2){
       document.getElementById('año1').innerHTML="273";
       document.getElementById('año2').innerHTML="$3 MP";
@@ -209,6 +411,118 @@ if ('serviceWorker' in navigator) {
       document.getElementById('actualizarfelipe1').style.display='none';
       document.getElementById('actualizarfelipe2').style.display='flex';
       document.getElementById('actualizarfelipe3').style.display='none';
+
+      const element = document.getElementById('actualizarfelipe2-s')/////////////////////////////////////////////////////////////
+      element.addEventListener("click", () => {
+    
+        let a = document.getElementById('actualizarfelipe2-s').value;
+        if ( a == 0 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$0 MP";
+          document.getElementById('año3').innerHTML="0";
+          document.getElementById('año4').innerHTML="0";
+          document.getElementById('año5').innerHTML="$0 MP";
+          document.getElementById('año6').innerHTML="0";
+      
+    
+        }if ( a == 1 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }if ( a == 2 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }if ( a == 3 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }if ( a == 4 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }if ( a == 5 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }if ( a == 6 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }if ( a == 7 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }if ( a == 8 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }if ( a == 9 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }if ( a == 10 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }if ( a == 11 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }if ( a == 12 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }});
+
     }else if(año == 3){
       document.getElementById('año1').innerHTML="253";
       document.getElementById('año2').innerHTML="$2 MP";
@@ -237,6 +551,117 @@ if ('serviceWorker' in navigator) {
       document.getElementById('actualizarfelipe1').style.display='none';
       document.getElementById('actualizarfelipe2').style.display='none';
       document.getElementById('actualizarfelipe3').style.display='flex'; 
+
+      const element = document.getElementById('actualizarfelipe3-s')/////////////////////////////////////////////////////////////
+      element.addEventListener("click", () => {
+    
+        let a = document.getElementById('actualizarfelipe3-s').value;
+        if ( a == 0 ){
+          document.getElementById('año1').innerHTML="2";
+          document.getElementById('año2').innerHTML="$0 MP";
+          document.getElementById('año3').innerHTML="0";
+          document.getElementById('año4').innerHTML="0";
+          document.getElementById('año5').innerHTML="$0 MP";
+          document.getElementById('año6').innerHTML="0";
+      
+    
+        }if ( a == 1 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }if ( a == 2 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }if ( a == 3 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }if ( a == 4 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }if ( a == 5 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }if ( a == 6 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }if ( a == 7 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }if ( a == 8 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }if ( a == 9 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }if ( a == 10 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }if ( a == 11 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }if ( a == 12 ){
+          document.getElementById('año1').innerHTML="1";
+          document.getElementById('año2').innerHTML="$1 MP";
+          document.getElementById('año3').innerHTML="1";
+          document.getElementById('año4').innerHTML="1";
+          document.getElementById('año5').innerHTML="$1 MP";
+          document.getElementById('año6').innerHTML="1";
+    
+        }});
 
     }else if(año == 4){
       document.getElementById('año1').innerHTML="3089";
