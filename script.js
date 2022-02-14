@@ -8,16 +8,17 @@ if ('serviceWorker' in navigator) {
 
     let maximo = 1 ;
     let minimo = 50;
-let i
-{
+    
+
 
   return Math.floor(Math.random()* (maximo - minimo + 1) + minimo);
 
+  
 }
    
 
 
-  }
+  
   function ALEATORIO2(){
 
     let maximo = 1000 ;
@@ -286,6 +287,7 @@ let i
 
   const element = document.getElementById('m_uno')/////////////////////////////////////////////////////////////
   element.addEventListener("click", () => {
+   
     if(año == 1 ){
       document.getElementById('año1').innerHTML="543";
       document.getElementById('año2').innerHTML="$6 MP";
@@ -345,10 +347,13 @@ let i
      document.getElementById('actualizarpuerto1').style.display='none';
      document.getElementById('actualizarpuerto2').style.display='none';
      document.getElementById('actualizarpuerto3').style.display='none';
-    
+     let i = 0;
   const element = document.getElementById('actualizarfelipe1-s')/////////////////////////////////////////////////////////////
   element.addEventListener("click", () => {
-   
+  
+    i++;
+
+  if( i%2 == 0){
     let a = document.getElementById('actualizarfelipe1-s').value;
     if ( a == 0 ){
       
@@ -542,7 +547,7 @@ let i
       document.getElementById('año6').innerHTML=ALEATORIO1();
       
     }
-   
+  }
   });
 
     }else if(año == 2){
@@ -602,9 +607,12 @@ let i
      document.getElementById('actualizarpuerto1').style.display='none';
      document.getElementById('actualizarpuerto2').style.display='none';
      document.getElementById('actualizarpuerto3').style.display='none';
+     let i = 0;
       const element = document.getElementById('actualizarfelipe2-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarfelipe2-s').value;
         if ( a == 0 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -710,7 +718,7 @@ let i
       document.getElementById('año5').innerHTML=ALEATORIO2();
       document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+      }}});
 
     }else if(año == 3){
       document.getElementById('año1').innerHTML="253";
@@ -768,10 +776,12 @@ let i
      document.getElementById('actualizarpuerto1').style.display='none';
      document.getElementById('actualizarpuerto2').style.display='none';
      document.getElementById('actualizarpuerto3').style.display='none';
-
+      let i = 0;
       const element = document.getElementById('actualizarfelipe3-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarfelipe3-s').value;
         if ( a == 0 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -875,7 +885,7 @@ let i
       document.getElementById('año5').innerHTML=ALEATORIO2();
       document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+        }  }});
 
 
     }else if(año == 4){
@@ -904,7 +914,7 @@ let i
       document.getElementById('e').style.backgroundColor='red';
       
     }
-
+  
   });
   const element1 = document.getElementById('m_dos') //////////////////////////////////////////////////////////
   element1.addEventListener("click", () => {
@@ -967,10 +977,12 @@ let i
    document.getElementById('actualizarpuerto1').style.display='none';
    document.getElementById('actualizarpuerto2').style.display='none';
    document.getElementById('actualizarpuerto3').style.display='none';
-
+let i = 0;
       const element = document.getElementById('actualizarjose1-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarjose1-s').value;
         if ( a == 0 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -1145,7 +1157,7 @@ let i
       document.getElementById('año5').innerHTML=ALEATORIO2();
       document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+      }}});
     }else if(año == 2){
       document.getElementById('año1').innerHTML="137";
       document.getElementById('año2').innerHTML="$1 MP";
@@ -1202,10 +1214,12 @@ let i
    document.getElementById('actualizarpuerto1').style.display='none';
    document.getElementById('actualizarpuerto2').style.display='none';
    document.getElementById('actualizarpuerto3').style.display='none';
-
+let i = 0;
       const element = document.getElementById('actualizarjose2-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarjose2-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -1365,7 +1379,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+        }  }});
     }else if(año == 3){
       document.getElementById('año1').innerHTML="322";
       document.getElementById('año2').innerHTML="$3 MP";
@@ -1418,9 +1432,12 @@ let i
    document.getElementById('actualizarpuerto1').style.display='none';
    document.getElementById('actualizarpuerto2').style.display='none';
    document.getElementById('actualizarpuerto3').style.display='none';
+   let i=0;
       const element = document.getElementById('actualizarjose3-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarjose3-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -1580,7 +1597,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+         }   }});
     }else if(año == 4){
       document.getElementById('año1').innerHTML="3089";
       document.getElementById('año2').innerHTML="$35 MP";
@@ -1668,9 +1685,12 @@ let i
    document.getElementById('actualizarpuerto1').style.display='none';
    document.getElementById('actualizarpuerto2').style.display='none';
    document.getElementById('actualizarpuerto3').style.display='none';
+   let i = 0;
       const element = document.getElementById('actualizarlazaro1-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarlazaro1-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -1830,7 +1850,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+      }}});
     }else if(año == 2){
       document.getElementById('año1').innerHTML="93";
       document.getElementById('año2').innerHTML="$800 000P";
@@ -1889,9 +1909,12 @@ let i
    document.getElementById('actualizarpuerto1').style.display='none';
    document.getElementById('actualizarpuerto2').style.display='none';
    document.getElementById('actualizarpuerto3').style.display='none';
+   let i = 0;
       const element = document.getElementById('actualizarlazaro2-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarlazaro2-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -2051,7 +2074,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+       } }});
     }else if(año == 3){
       document.getElementById('año1').innerHTML="747";
       document.getElementById('año2').innerHTML="$7 MP";
@@ -2106,9 +2129,12 @@ let i
    document.getElementById('actualizarpuerto1').style.display='none';
    document.getElementById('actualizarpuerto2').style.display='none';
    document.getElementById('actualizarpuerto3').style.display='none';
+   let i = 0;
       const element = document.getElementById('actualizarlazaro3-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarlazaro3-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -2267,8 +2293,8 @@ let i
           document.getElementById('año4').innerHTML=ALEATORIO1();
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
-    
-        }});
+  
+        }}});
     }else if(año == 4){
       document.getElementById('año1').innerHTML="3089";
       document.getElementById('año2').innerHTML="$35 MP";
@@ -2357,9 +2383,12 @@ let i
    document.getElementById('actualizarpuerto1').style.display='none';
    document.getElementById('actualizarpuerto2').style.display='none';
    document.getElementById('actualizarpuerto3').style.display='none';
+   let i = 0;
       const element = document.getElementById('actualizartulum1-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizartulum1-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -2519,7 +2548,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+       } }});
     }else if(año == 2){
       document.getElementById('año1').innerHTML="1";
       document.getElementById('año2').innerHTML="$12 000 P";
@@ -2576,9 +2605,12 @@ let i
      document.getElementById('actualizarpuerto1').style.display='none';
      document.getElementById('actualizarpuerto2').style.display='none';
      document.getElementById('actualizarpuerto3').style.display='none';
+     let i = 0;
       const element = document.getElementById('actualizartulum2-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizartulum2-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -2738,7 +2770,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+      }}});
       
     }else if(año == 3){
       document.getElementById('año1').innerHTML="747";
@@ -2792,9 +2824,12 @@ let i
      document.getElementById('actualizarpuerto1').style.display='none';
      document.getElementById('actualizarpuerto2').style.display='none';
      document.getElementById('actualizarpuerto3').style.display='none';
+     let i = 0;
       const element = document.getElementById('actualizartulum3-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizartulum3-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -2954,7 +2989,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+       } }});
     }else if(año == 4){
       document.getElementById('año1').innerHTML="3089";
       document.getElementById('año2').innerHTML="$35 MP";
@@ -3041,9 +3076,12 @@ let i
      document.getElementById('actualizarpuerto1').style.display='none';
      document.getElementById('actualizarpuerto2').style.display='none';
      document.getElementById('actualizarpuerto3').style.display='none';
+     let i = 0;
       const element = document.getElementById('actualizarbacalar1-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarbacalar1-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -3203,7 +3241,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+       } }});
     }else if(año == 2){
       document.getElementById('año1').innerHTML="109";
       document.getElementById('año2').innerHTML="$1 MP";
@@ -3259,9 +3297,12 @@ let i
      document.getElementById('actualizarpuerto1').style.display='none';
      document.getElementById('actualizarpuerto2').style.display='none';
      document.getElementById('actualizarpuerto3').style.display='none';
+     let i = 0;
       const element = document.getElementById('actualizarbacalar2-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarbacalar2-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -3421,7 +3462,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+       } }});
     }else if(año == 3){
       document.getElementById('año1').innerHTML="171";
       document.getElementById('año2').innerHTML="$1 MP";
@@ -3474,9 +3515,12 @@ let i
      document.getElementById('actualizarpuerto1').style.display='none';
      document.getElementById('actualizarpuerto2').style.display='none';
      document.getElementById('actualizarpuerto3').style.display='none';
+     let i = 0;
       const element = document.getElementById('actualizarbacalar3-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarbacalar3-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -3636,7 +3680,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+      }}});
     }else if(año == 4){
       document.getElementById('año1').innerHTML="3089";
       document.getElementById('año2').innerHTML="$35 MP";
@@ -3724,9 +3768,12 @@ let i
    document.getElementById('actualizarpuerto1').style.display='none';
    document.getElementById('actualizarpuerto2').style.display='none';
    document.getElementById('actualizarpuerto3').style.display='none';
+   let i = 0;
       const element = document.getElementById('actualizarothon1-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarothon1-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -3886,7 +3933,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+       } }});
 
     }else if(año == 2){
       document.getElementById('año1').innerHTML="-";
@@ -3943,9 +3990,12 @@ let i
      document.getElementById('actualizarpuerto1').style.display='none';
      document.getElementById('actualizarpuerto2').style.display='none';
      document.getElementById('actualizarpuerto3').style.display='none';
+     let i = 0;
       const element = document.getElementById('actualizarothon2-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarothon2-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -4105,7 +4155,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+      }}});
       
     }else if(año == 3){
       document.getElementById('año1').innerHTML="-";
@@ -4159,9 +4209,12 @@ let i
    document.getElementById('actualizarpuerto1').style.display='none';
    document.getElementById('actualizarpuerto2').style.display='none';
    document.getElementById('actualizarpuerto3').style.display='none';
+   let i = 0;
       const element = document.getElementById('actualizarothon3-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarothon3-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -4321,7 +4374,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+       } }});
       
     }else if(año == 4){
       document.getElementById('año1').innerHTML="3089";
@@ -4409,9 +4462,12 @@ let i
      document.getElementById('actualizarpuerto1').style.display='none';
      document.getElementById('actualizarpuerto2').style.display='none';
      document.getElementById('actualizarpuerto3').style.display='none';
+     let i = 0;
       const element = document.getElementById('actualizarbenito1-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarbenito1-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -4571,7 +4627,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+      }}});
     }else if(año == 2){
       document.getElementById('año1').innerHTML="-";
       document.getElementById('año2').innerHTML="$- MP";
@@ -4627,9 +4683,12 @@ let i
    document.getElementById('actualizarpuerto1').style.display='none';
    document.getElementById('actualizarpuerto2').style.display='none';
    document.getElementById('actualizarpuerto3').style.display='none';
+   let i = 0;
       const element = document.getElementById('actualizarbenito2-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarbenito2-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -4789,7 +4848,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+       } }});
     }else if(año == 3){
       document.getElementById('año1').innerHTML="-";
       document.getElementById('año2').innerHTML="$- MP";
@@ -4841,9 +4900,12 @@ let i
      document.getElementById('actualizarpuerto1').style.display='none';
      document.getElementById('actualizarpuerto2').style.display='none';
      document.getElementById('actualizarpuerto3').style.display='none';
+     let i = 0;
       const element = document.getElementById('actualizarbenito3-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarbenito3-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -5003,7 +5065,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+       } }});
       
     }else if(año == 4){
       document.getElementById('año1').innerHTML="3089";
@@ -5091,9 +5153,12 @@ let i
      document.getElementById('actualizarpuerto1').style.display='none';
      document.getElementById('actualizarpuerto2').style.display='none';
      document.getElementById('actualizarpuerto3').style.display='none';
+     let i =0;
       const element = document.getElementById('actualizarcozumel1-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarcozumel1-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -5253,7 +5318,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+       } }});
 
     }else if(año == 2){
       document.getElementById('año1').innerHTML="613";
@@ -5310,9 +5375,12 @@ let i
      document.getElementById('actualizarpuerto1').style.display='none';
      document.getElementById('actualizarpuerto2').style.display='none';
      document.getElementById('actualizarpuerto3').style.display='none';
+     let i = 0;
       const element = document.getElementById('actualizarcozumel2-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarcozumel2-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -5472,7 +5540,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+       } }});
     }else if(año == 3){
       document.getElementById('año1').innerHTML="747";
       document.getElementById('año2').innerHTML="$7 MP";
@@ -5523,9 +5591,12 @@ let i
      document.getElementById('actualizarpuerto1').style.display='none';
      document.getElementById('actualizarpuerto2').style.display='none';
      document.getElementById('actualizarpuerto3').style.display='none';
+     let i= 0;
       const element = document.getElementById('actualizarcozumel3-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarcozumel3-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -5685,7 +5756,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+        }  }});
     }else if(año == 4){
       document.getElementById('año1').innerHTML="3089";
       document.getElementById('año2').innerHTML="$35 MP";
@@ -5772,9 +5843,12 @@ let i
      document.getElementById('actualizarpuerto1').style.display='none';
      document.getElementById('actualizarpuerto2').style.display='none';
      document.getElementById('actualizarpuerto3').style.display='none';
+     let i = 0;
       const element = document.getElementById('actualizarisla1-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarisla1-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -5934,7 +6008,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+       } }});
     }else if(año == 2){
       document.getElementById('año1').innerHTML="613";
       document.getElementById('año2').innerHTML="$6 MP";
@@ -5990,9 +6064,12 @@ let i
      document.getElementById('actualizarpuerto1').style.display='none';
      document.getElementById('actualizarpuerto2').style.display='none';
      document.getElementById('actualizarpuerto3').style.display='none';
+     let i = 0;
       const element = document.getElementById('actualizarisla2-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarisla2-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -6152,7 +6229,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+      }}});
     }else if(año == 3){
       document.getElementById('año1').innerHTML="747";
       document.getElementById('año2').innerHTML="$7 MP";
@@ -6204,9 +6281,12 @@ let i
    document.getElementById('actualizarpuerto1').style.display='none';
    document.getElementById('actualizarpuerto2').style.display='none';
    document.getElementById('actualizarpuerto3').style.display='none';
+   let i = 0;
       const element = document.getElementById('actualizarisla3-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarisla3-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -6366,7 +6446,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+       } }});
     }else if(año == 4){
       document.getElementById('año1').innerHTML="3089";
       document.getElementById('año2').innerHTML="$35 MP";
@@ -6453,9 +6533,12 @@ let i
    document.getElementById('actualizarpuerto1').style.display='none';
    document.getElementById('actualizarpuerto2').style.display='none';
    document.getElementById('actualizarpuerto3').style.display='none';
+   let i = 0;
       const element = document.getElementById('actualizarsolidaridad1-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarsolidaridad1-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -6615,7 +6698,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+       } }});
     }else if(año == 2){
       document.getElementById('año1').innerHTML="-";
       document.getElementById('año2').innerHTML="$- MP";
@@ -6671,8 +6754,12 @@ let i
      document.getElementById('actualizarpuerto1').style.display='none';
      document.getElementById('actualizarpuerto2').style.display='none';
      document.getElementById('actualizarpuerto3').style.display='none';/////////////////////////////////////////////////////
+     let i = 0;
+      const element = document.getElementById('actualizarsolidaridad2-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarsolidaridad2-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -6832,7 +6919,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+      }}});
     }else if(año == 3){
       document.getElementById('año1').innerHTML="747";
       document.getElementById('año2').innerHTML="$7 MP";
@@ -6885,9 +6972,12 @@ let i
      document.getElementById('actualizarpuerto1').style.display='none';
      document.getElementById('actualizarpuerto2').style.display='none';
      document.getElementById('actualizarpuerto3').style.display='none';
+     let i = 0;
       const element = document.getElementById('actualizarsolidaridad3-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarsolidaridad3-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -7047,7 +7137,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+      }}});
     }else if(año == 4){
       document.getElementById('año1').innerHTML="3089";
       document.getElementById('año2').innerHTML="$35 MP";
@@ -7134,9 +7224,12 @@ let i
    document.getElementById('actualizarpuerto1').style.display='flex';
    document.getElementById('actualizarpuerto2').style.display='none';
    document.getElementById('actualizarpuerto3').style.display='none';
+   let i = 0;
       const element = document.getElementById('actualizarpuerto1-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarpuerto1-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -7296,7 +7389,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+      }}});
     }else if(año == 2){
       document.getElementById('año1').innerHTML="-";
       document.getElementById('año2').innerHTML="$- MP";
@@ -7352,9 +7445,12 @@ let i
      document.getElementById('actualizarpuerto1').style.display='none';
      document.getElementById('actualizarpuerto2').style.display='flex';
      document.getElementById('actualizarpuerto3').style.display='none';
+     let i = 0;
       const element = document.getElementById('actualizarpuerto2-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarpuerto2-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -7514,7 +7610,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+      }}});
     }else if(año == 3){
       document.getElementById('año1').innerHTML="747";
       document.getElementById('año2').innerHTML="$7 MP";
@@ -7567,9 +7663,12 @@ let i
    document.getElementById('actualizarpuerto1').style.display='none';
    document.getElementById('actualizarpuerto2').style.display='none';
    document.getElementById('actualizarpuerto3').style.display='flex';
+   let i = 0;
       const element = document.getElementById('actualizarpuerto3-s')/////////////////////////////////////////////////////////////
       element.addEventListener("click", () => {
-    
+        i++;
+
+        if( i%2 == 0){
         let a = document.getElementById('actualizarpuerto3-s').value;
         if ( a == 1 ){
           document.getElementById('año1').innerHTML=ALEATORIO1();
@@ -7729,7 +7828,7 @@ let i
           document.getElementById('año5').innerHTML=ALEATORIO2();
           document.getElementById('año6').innerHTML=ALEATORIO1();
     
-        }});
+        }  }});
     }else if(año == 4){
       document.getElementById('año1').innerHTML="3089";
       document.getElementById('año2').innerHTML="$35 MP";
