@@ -5,19 +5,15 @@ if ('serviceWorker' in navigator) {
   }
 
   function ALEATORIO1(){
-
+   
     let maximo = 1 ;
     let minimo = 50;
     
-
-
-  return Math.floor(Math.random()* (maximo - minimo + 1) + minimo);
-
+    return Math.floor(Math.random()* (maximo - minimo + 1) + minimo);
   
+
 }
    
-
-
   
   function ALEATORIO2(){
 
@@ -26,7 +22,26 @@ if ('serviceWorker' in navigator) {
 
     return Math.floor(Math.random()* (maximo - minimo + 1) + minimo);
   }
+
+  function ALEATORIO3(){
+    
+    valor1 = ALEATORIO1();
+    let maximo = 1 ;
+    let minimo = 50;
+    let u ;
+     u = Math.floor(Math.random()* (maximo - minimo + 1) + minimo);
+
+     while(u >= valor1){
+
+      u = Math.floor(Math.random()* (maximo - minimo + 1) + minimo);
+
+     }
+     alert (u);
+     alert (valor1);
+      return u;
+  }
  
+
 
   
  function cambio2(año) {
@@ -348,9 +363,11 @@ if ('serviceWorker' in navigator) {
      document.getElementById('actualizarpuerto2').style.display='none';
      document.getElementById('actualizarpuerto3').style.display='none';
      let i = 0;
+     
   const element = document.getElementById('actualizarfelipe1-s')/////////////////////////////////////////////////////////////
   element.addEventListener("click", () => {
   
+   
     i++;
 
   if( i%2 == 0){
@@ -416,10 +433,10 @@ if ('serviceWorker' in navigator) {
     }if ( a == 7 ){
       document.getElementById('año1').innerHTML=ALEATORIO1();
       document.getElementById('año2').innerHTML=ALEATORIO2();
-      document.getElementById('año3').innerHTML=ALEATORIO1();
+      document.getElementById('año3').innerHTML=ALEATORIO3();
       document.getElementById('año4').innerHTML=ALEATORIO1();
       document.getElementById('año5').innerHTML=ALEATORIO2();
-      document.getElementById('año6').innerHTML=ALEATORIO1();
+      document.getElementById('año6').innerHTML=ALEATORIO3();
 
 
     
