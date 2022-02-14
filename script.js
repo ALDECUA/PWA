@@ -36,8 +36,7 @@ if ('serviceWorker' in navigator) {
       u = Math.floor(Math.random()* (maximo - minimo + 1) + minimo);
       
     }
-      alert (u);
-      alert (mas);
+
       
       return u;
       
